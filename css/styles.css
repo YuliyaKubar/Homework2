@@ -57,7 +57,7 @@
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: var(--main-color);
+    color: var(--second-color);
 }
 
 .link:focus 
@@ -280,6 +280,12 @@
 
 .button-list:hover {
     background-color: var(--third-color);
+    color: #FFFFFF;
+}
+
+.button-list:focus {
+    background-color: var(--third-color);
+    color: #FFFFFF;
 }
 
 .button-list {
