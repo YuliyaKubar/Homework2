@@ -1,9 +1,13 @@
 :root {
-    font-family: 'Roboto', sans-serif;
-    --main-color: #212121;
     --second-color: #757575;
     --third-color: #2196F3;
     --fourth-color: #FFFFFF;
+    --background: #F5F4FA;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    --main-color: #212121;
     --background-color: #2F303A;
 }
 
@@ -61,6 +65,14 @@
     color: var(--third-color);
 }
 
+.tel-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+}
+
 .hero {
     background: var(--background-color);
 }
@@ -81,16 +93,16 @@
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--fourth-color);
+    background-color: var(--third-color);
     
 }
 
 .hero-button:hover{
-    background-color: var(--third-color);
+    background-color: #188CE8;
 }
 
 .hero-button{
@@ -136,8 +148,9 @@
     color: var(--main-color);
 }
 
+
 .main-comanda {
-    background: #F5F4FA;
+    background: var(--background);
     }
 
 
@@ -167,6 +180,9 @@
     color:var(--second-color);
 }
 
+.comanda-blok {
+    background: #FFFFFF;
+}
 
 .footer {
     background: var(--background-color);
@@ -199,7 +215,7 @@
     color: var(--fourth-color);
 }
 
-.footer-address:hover{
+.footer-address-item:hover{
     color: #2196F3;
 }
 
@@ -259,7 +275,15 @@
  }
 
 .button-list {
-    background-color: #F5F4FA;
+    background-color: var(--background);
+}
+
+.button-list:hover {
+    background-color: var(--third-color);
+}
+
+.button-list {
+    cursor: pointer;
 }
 
 .portfolio-comanda-title {
